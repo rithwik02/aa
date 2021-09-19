@@ -1,0 +1,93 @@
+#container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+
+#one,#six{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.top{
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+#two{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#three{
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 130px;
+    height: 130px;
+}
+
+#four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#fourcontent{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+
+#imgone{
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 90%;
+}
+
+#five{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#fiveone{
+    margin: 20px;
+}
+
+#fivetwo{
+    margin:20px;
+}
+
+#fivethree{
+    margin: 20px;
+}
+
+#high{
+    font-size: 170%;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.redtag{
+    background-color: red;
+    color: white;
+    width: 20%;
+    margin: none;
+    font-style: italic;
+}
